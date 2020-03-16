@@ -8,10 +8,10 @@
 // The tree is already built for you in the code below.
 
 class BinaryTreeNode {
-   let val: Int
-   var left: TreeNode?
-   var right: TreeNode?
-   init(_ val: Int) {
+   let val: String
+   var left: BinaryTreeNode?
+   var right: BinaryTreeNode?
+   init(_ val: String) {
       self.val = val
    }
 }
